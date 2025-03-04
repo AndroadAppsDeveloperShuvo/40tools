@@ -1,0 +1,371 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS Tool Collection</title>
+    <link href="https://fonts.googleapis.com/css?family=Iceberg|Wallpoet|Nunito|Poiret+One&amp;display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: #fff;
+            overflow: auto;
+        }
+        header {
+            font-family: 'Wallpoet', cursive;
+            background: #ff004c;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            color: #fff;
+            text-shadow: 0 0 20px #ff004c;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            z-index: 2;
+            position: relative;
+        }
+        .tool {
+            background: #1e1e2f;
+            border: 2px solid #ff004c;
+            border-radius: 12px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            width: 220px;
+            transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 0 15px #ff004c;
+        }
+        .tool:hover {
+            transform: scale(1.1);
+            background: #ff004c;
+            box-shadow: 0 0 25px #ff79a8;
+        }
+        .tool img {
+            width: 100%;
+            height: 140px;
+            border-radius: 8px;
+        }
+        .tool a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-family: 'Iceberg', sans-serif;
+            background: #1e1e2f;
+            color: #18FFFF;
+            text-shadow: 0 0 10px #18FFFF;
+            font-size: 1.2em;
+            z-index: 2;
+            position: relative;
+        }
+        marquee {
+            margin: 20px 0;
+            color: #fff;
+            text-shadow: 0 0 10px red;
+            font-size: 1.5em;
+        }
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"><canvas class="particles-js-canvas-el" width="1395" height="963" style="width: 100%; height: 100%;"></canvas></div>
+    <header>TCS Tool Collection</header>
+    <marquee behavior="alternate" scrollamount="10">Explore Your Favorite Tools Here!</marquee>
+    <div class="container">
+        <div class="tool">
+            <img src="ssc.jpg" alt="Fake SSC">
+            <a href="iframe.html?src=fakessc.html">Fake SSC</a>
+        </div>
+        <div class="tool">
+            <img src="hsc.jpg" alt="Fake HSC">
+            <a href="iframe.html?src=fakehscresult.html">Fake HSC</a>
+        </div>
+        <div class="tool">
+            <img src="bomber.jpg" alt="bomber">
+            <a href="iframe.html?src=bomber.php" onclick="openIframe(this)">Fun SMS Bomber</a>
+        </div>
+        <div class="tool">
+            <img src="tg.png" alt="Insta video download">
+            <a href="iframe.html?src=comingsoon.html" onclick="openIframe(this)">Telegram Chat ID</a>
+        </div>
+        <div class="tool">
+            <img src="bl.jpg" alt="Banglalink Loan Info">
+            <a href="iframe.html?src=bl.php" onclick="openIframe(this)">Banglalink Loan Info</a>
+        </div>
+        <div class="tool">
+            <img src="freehosting.jpg" alt="Free Html Hosting">
+            <a href="iframe.html?src=hoster.php" onclick="openIframe(this)">Free HTML Hosting</a>
+        </div>
+        <div class="tool">
+            <img src="facematcher.jpg" alt="Face Matcher">
+            <a href="iframe.html?src=facematcher.php" onclick="openIframe(this)">Face Matcher</a>
+        </div>
+       
+        <div class="tool">
+            <img src="nginfo.jpg" alt="Nagad Half Info">
+            <a href="iframe.html?src=ng.php" onclick="openIframe(this)">Nagad Half Info</a>
+        </div>
+        <div class="tool">
+            <img src="tiktok.jpg" alt="Tiktok Downloader">
+            <a href="iframe.html?src=tiktok.php" onclick="openIframe(this)">Tiktok Downloader</a>
+        </div>
+        <div class="tool">
+            <img src="yt.jpg" alt="YT Thumbnail Info">
+            <a href="iframe.html?src=yt.php" onclick="openIframe(this)">YT Thumbnail Downloader</a>
+        </div>
+        <div class="tool">
+            <img src="quotes.jpg" alt="Quotes">
+            <a href="iframe.html?src=quotes.html" onclick="openIframe(this)">Quotes</a>
+        </div>
+        <div class="tool">
+            <img src="linux.jpg" alt="Linux RDP">
+            <a href="iframe.html?src=https://linux-etyl.onrender.com/" onclick="openIframe(this)">Linux RDP</a>
+        </div>
+        <div class="tool">
+            <img src="ngblock.jpg" alt="Nagad Account Blocker">
+            <a href="iframe.html?src=ngblock.html" onclick="openIframe(this)">Nagad Account Blocker</a>
+        </div>
+        <div class="tool">
+            <img src="temp.jpg" alt="Temp Mail">
+            <a href="iframe.html?src=tempmail.html" onclick="openIframe(this)">Temp Mail</a>
+        </div>
+        <div class="tool">
+            <img src="plp.jpg" alt="PLP File Downloader">
+            <a href="iframe.html?src=plp.html" onclick="openIframe(this)">PLP File Downloader</a>
+        </div>
+        <div class="tool">
+            <img src="zipcracker.jpg" alt="Zip Cracker">
+            <a href="iframe.html?src=zip.html" onclick="openIframe(this)">Zip Cracker</a>
+        </div>
+        <div class="tool">
+            <img src="rdp.jpg" alt="RDP">
+            <a href="iframe.html?src=rdp.html" onclick="openIframe(this)">RDP</a>
+        </div>
+        <div class="tool">
+            <img src="link.jpg" alt="Link Shortener">
+            <a href="iframe.html?src=linkshortner.html" onclick="openIframe(this)">Link Shortener</a>
+        </div>
+        <div class="tool">
+            <img src="cc.jpg" alt="CC GEN">
+            <a href="iframe.html?src=cc.php" onclick="openIframe(this)">CC GEN</a>
+        </div>
+        <div class="tool">
+            <img src="fb.jpg" alt="FB Phishing Gen">
+            <a href="iframe.html?src=fbphishinggen.html" onclick="openIframe(this)">FB Phishing Gen</a>
+        </div>
+        <div class="tool">
+            <img src="encryptor.jpg" alt="HTML &amp; Python Encryptor">
+            <a href="Base64/index.html" onclick="openIframe(this)">Python Encryptor</a>
+        </div>
+        <div class="tool">
+            <img src="passlist.jpg" alt="Passlist Maker">
+            <a href="iframe.html?src=passlist.html" onclick="openIframe(this)">Passlist Maker</a>
+        </div>
+        <div class="tool">
+            <img src="illegal.jpg" alt="Illegal GPT">
+            <a href="iframe.html?src=illegalgpt.html" onclick="openIframe(this)">Illegal GPT</a>
+        </div>
+        <div class="tool">
+            <img src="malware.jpg" alt="Malware Command Website">
+            <a href="iframe.html?src=malware.html" onclick="openIframe(this)">Malware Command Website</a>
+        </div>
+        <div class="tool">
+            <img src="bat.jpg" alt="Batch file">
+            <a href="iframe.html?src=https://tcs-batch-files.vercel.app/" onclick="openIframe(this)">Batch File</a>
+        </div>
+        <div class="tool">
+            <img src="image.jpg" alt="Image Generator">
+            <a href="iframe.html?src=imagegen.html" onclick="openIframe(this)">Image Generator</a>
+        </div>
+        <div class="tool">
+            <img src="bn.jpg" alt="Bkash Nagad Fake">
+            <a href="iframe.html?src=fakess.html" onclick="openIframe(this)">Bkash &amp; Nagad Fake SS</a>
+        </div>
+        <div class="tool">
+            <img src="tts.jpg" alt="Text to Speech">
+            <a href="iframe.html?src=texttospeech.php" onclick="openIframe(this)">Text to Speech Generators</a>
+        </div>
+        
+       <div class="tool">
+            <img src="abp.jpg" alt="antibruteforcepassmaker">
+            <a href="iframe.html?src=antibruteforcepassmaker.html" onclick="openIframe(this)">Anti-bruteforce Password Gen</a>
+        </div>
+        
+               <div class="tool">
+            <img src="bin.jpg" alt="binmaker">
+            <a href="iframe.html?src=binmaker.html" onclick="openIframe(this)">BIN Generator</a>
+        </div>
+        
+        <div class="tool">
+            <img src="ddos.jpg" alt="ddos">
+            <a href="DDOS/html" onclick="openIframe(this)">Simple Ddos Server</a>
+        </div>
+        
+        <div class="tool">
+            <img src="gdrive.jpg" alt="gdrive download">
+            <a href="iframe.html?src=gdrivedownload.html" onclick="openIframe(this)">DIRECT DOWNLOAD GDRIVE</a>
+        </div>
+        
+          <div class="tool">
+            <img src="ig.jpg" alt="igliker">
+            <a href="iframe.html?src=igliker.html" onclick="openIframe(this)">INSTAGRAM AUTO LIKER</a>
+        </div>
+        
+        <div class="tool">
+            <img src="ip.jpg" alt="ipfinder">
+            <a href="iframe.html?src=https://ip-info-tcs.tiiny.io/" onclick="openIframe(this)">IP Locator</a>
+        </div>
+        
+        <div class="tool">
+            <img src="library.jpg" alt="library">
+            <a href="SECRET_HISTORY/html" onclick="openIframe(this)">Library- Dark History of BD🇧🇩</a>
+        </div>
+        
+        <div class="tool">
+            <img src="hklibrary.jpg" alt="library">
+            <a href="iframe.html?src=hackingbook.html" onclick="openIframe(this)">Library- Hacking Books</a>
+        </div>
+        <div class="tool">
+            <img src="fb.png" alt="dpcp">
+            <a href="iframe.html?src=dpcp.html" onclick="openIframe(this)">FB dp/cp Downloader</a>
+        </div>
+        
+        <div class="tool">
+            <img src="lcphish.jpg" alt="dpcp">
+            <a href="iframe.html?src=lcphish.html" onclick="openIframe(this)">Location Phishing</a>
+        </div>
+        
+        <div class="tool">
+            <img src="courses.jpg" alt="course">
+            <a href="iframe.html?src=freecourses.html" onclick="openIframe(this)">Free Courses</a>
+        </div>
+     <div class="tool">
+            <img src="tbc.jpg" alt="tbc">
+            <a href="iframe.html?src=tbc.html" onclick="openIframe(this)">Termux Basic Course</a>
+        </div>
+        
+        <div class="tool">
+            <img src="txt.jpg" alt="tbc">
+            <a href="TXT_REPLY/index.html" onclick="openIframe(this)">Text Repeater</a>
+        </div>
+        
+                  <div class="tool">
+            <img src="ngphish.jpg" alt="ngphisher">
+            <a href="iframe.html?src=ngphisher.html" onclick="openIframe(this)">NAGAD PHISHING</a>
+        </div>
+        
+        
+        
+    </div>
+    <footer>© 2024 Tool Collection. Powered by <a href="https://t.me/termux_command_store" style="color: #18FFFF; text-decoration: none;">TERMUX COMMAND STORE</a></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 3,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out"
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+
+</body></html>
